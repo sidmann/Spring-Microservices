@@ -1,0 +1,8 @@
+app1, app2 ==> RestTemplate
+app3, app4 ==> OpenFeign
+app5, app6, app7 ==> OpenFeign with Eureka
+
+app8, app9, app10, app11 ==> OpenFeign, Eureka with load balancing
+app8   ==> Eureka Server
+app9   ==> client1 with open feign and load balancer
+app10  ==> client2 (microservice2)
